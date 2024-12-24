@@ -4,3 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[[bin]]
+name = "mutable"
+path = "src/mutable.rs"
+
+[[bin]]
+name = "memory"
+path = "src/memory.rs"
+
+[[bin]]
+name = "owner"
+path = "src/owner.rs"

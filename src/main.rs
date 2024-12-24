@@ -23,6 +23,24 @@ fn main(){
     //     println!("You are a legal male")
     // }
 
-    let greeting = String::from("hello world");
-    println!("{}", greeting);
+    // let greeting = String::from("hello world");
+    // println!("{}", greeting);
+
+    // let char1 = greeting.chars().nth(0);
+    // print!("char1 {}", char1.unwrap());
+
+    // Loops
+    // for i in 0..10{
+    //     print!("{} ", i);
+    // };
+
+    let a = 2;
+    let b = 10;
+    let sum = do_something(a, b);
+    println!("Sum of {} and {} is {}", a, b, sum);
+
+}
+
+fn do_something(a: i32, b: i32) -> i32 {
+    return a + b;
 }
