@@ -16,3 +16,15 @@ path = "src/memory.rs"
 [[bin]]
 name = "owner"
 path = "src/owner.rs"
+
+[[bin]]
+name = "reference"
+path = "src/reference.rs"
+
+[[bin]]
+name = "mutableref"
+path = "src/mutableref.rs"
+
+[[bin]]
+name = "struct"
+path = "src/struct.rs"
