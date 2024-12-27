@@ -28,3 +28,11 @@ path = "src/mutableref.rs"
 [[bin]]
 name = "struct"
 path = "src/struct.rs"
+
+[[bin]]
+name = "implementstruct"
+path = "src/implementstruct.rs"
+
+[[bin]]
+name = "enums"
+path = "src/enums.rs"
