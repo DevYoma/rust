@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rand = "0.8.5"
 
 [[bin]]
 name = "mutable"
@@ -36,3 +37,23 @@ path = "src/implementstruct.rs"
 [[bin]]
 name = "enums"
 path = "src/enums.rs"
+
+[[bin]]
+name = "resultenum"
+path = "src/resultenum.rs"
+
+[[bin]]
+name = "optionenum"
+path = "src/optionenum.rs"
+
+[[bin]]
+name = "userand"
+path = "src/userand.rs"
+
+[[bin]]
+name = "vector"
+path = "src/vector.rs"
+
+[[bin]]
+name = "hashmap"
+path = "src/hashmap.rs"
