@@ -57,3 +57,12 @@ path = "src/vector.rs"
 [[bin]]
 name = "hashmap"
 path = "src/hashmap.rs"
+
+[[bin]]
+name = "iterator"
+path = "src/iterator.rs"
+
+[[bin]]
+name = "slices"
+path = "src/slices.rs"
+
