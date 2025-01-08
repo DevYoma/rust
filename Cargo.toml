@@ -66,3 +66,11 @@ path = "src/iterator.rs"
 name = "slices"
 path = "src/slices.rs"
 
+[[bin]]
+name = "generics"
+path = "src/generics.rs"
+
+[[bin]]
+name = "traits"
+path = "src/traits.rs"
+
